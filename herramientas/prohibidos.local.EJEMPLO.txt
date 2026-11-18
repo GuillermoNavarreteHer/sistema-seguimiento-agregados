@@ -1,0 +1,8 @@
+# Copia este archivo como "prohibidos.local.txt" (git lo ignora) y escribe,
+# una por línea, las palabras que NUNCA deben aparecer en el portafolio:
+# nombre de la empresa, clientes, proveedores, personas, cuentas, dominios,
+# códigos y números reales. Se compara por palabra completa y sin
+# distinguir mayúsculas. Las líneas que empiezan con # se ignoran.
+EMPRESA-REAL
+CLIENTE-REAL-1
+correo-real-sin-arroba (por ejemplo: usuario empresa-real com)

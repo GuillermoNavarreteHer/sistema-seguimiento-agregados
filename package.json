@@ -1,0 +1,19 @@
+{
+  "name": "sistema-seguimiento-agregados",
+  "version": "1.6.0",
+  "private": true,
+  "description": "Sistema web de seguimiento de servicios agregados (HTML/JS + Supabase) con modo demo de datos ficticios.",
+  "author": "Guillermo Navarrete (https://github.com/GuillermoNavarreteHer)",
+  "type": "module",
+  "scripts": {
+    "test": "node --test pruebas/unitarias/*.test.mjs",
+    "test:e2e": "node pruebas/e2e/demo-completa.mjs",
+    "capturas": "node pruebas/e2e/demo-completa.mjs --capturas",
+    "revisar": "node herramientas/construir-portafolio.mjs --revisar .",
+    "revisar:docs": "node herramientas/revisar-docs.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "mermaid": "11.4.1"
+  }
+}
